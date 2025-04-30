@@ -16,18 +16,6 @@ Make sure you have the following installed on your system:
 - **gcc** (C Compiler)
 - **make** (Build automation tool)
 
-You can install these on Linux using:
-
-```bash
-sudo apt-get install flex gcc make
-```
-
-On macOS, use Homebrew:
-
-```bash
-brew install flex gcc make
-```
-
 ## Installation
 
 1. Clone this repository:
@@ -47,7 +35,7 @@ This will generate the `lex_analaizer` executable from the Lex source code (`lex
 
 ## Usage
 
-1. Create an AC code file (e.g., `example.ac`). You can either write it manually or use any code editor to generate the content. Here's an example of how the `example.ac` might look:
+1. Create an AC code file (e.g., `example.ac`). Here's an example of how the `example.ac` might look:
 
 ```ac
 //DVM7XXX491
